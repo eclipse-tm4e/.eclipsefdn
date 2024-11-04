@@ -24,11 +24,6 @@ orgs.newOrg('eclipse-tm4e') {
     // see https://otterdog.readthedocs.io/en/latest/reference/organization/repository/#repository
     orgs.newRepo('tm4e') {
       allow_merge_commit: false,
-      code_scanning_default_languages+: [
-        "javascript-typescript",
-        "python"
-      ],
-      code_scanning_default_setup_enabled: true,
       dependabot_security_updates_enabled: true,
       description: "TextMate support in Eclipse IDE",
       has_discussions: true,
