@@ -24,7 +24,6 @@ orgs.newOrg('eclipse-tm4e') {
     orgs.newRepo('tm4e') {
       allow_merge_commit: false,
       code_scanning_default_languages+: [
-        "java-kotlin"
       ],
       code_scanning_default_setup_enabled: true,
       dependabot_security_updates_enabled: true,
