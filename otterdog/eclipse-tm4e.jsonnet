@@ -27,8 +27,6 @@ orgs.newOrg('eclipse-tm4e') {
         "java-kotlin"
       ],
       code_scanning_default_setup_enabled: true,
-      default_branch: "main",
-      delete_branch_on_merge: true,
       dependabot_security_updates_enabled: true,
       description: "TextMate support in Eclipse IDE",
       has_discussions: true,
