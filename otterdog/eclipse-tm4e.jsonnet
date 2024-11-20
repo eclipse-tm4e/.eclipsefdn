@@ -28,7 +28,7 @@ orgs.newOrg('eclipse-tm4e') {
       description: "TextMate support in Eclipse IDE",
       has_discussions: true,
       has_projects: false,
-      has_wiki: false,
+      has_wiki: true,
       homepage: "https://projects.eclipse.org/projects/technology.tm4e",
       squash_merge_commit_message: "PR_BODY",
       squash_merge_commit_title: "PR_TITLE",
