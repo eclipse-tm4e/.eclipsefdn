@@ -2,7 +2,7 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
 // see https://otterdog.readthedocs.io/en/latest/reference/organization/
-orgs.newOrg('eclipse-tm4e') {
+orgs.newOrg('technology.tm4e', 'eclipse-tm4e') {
   settings+: {
     description: "",
     name: "Eclipse TM4E",
