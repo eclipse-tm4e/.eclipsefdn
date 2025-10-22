@@ -24,6 +24,7 @@ orgs.newOrg('technology.tm4e', 'eclipse-tm4e') {
     // see https://otterdog.readthedocs.io/en/latest/reference/organization/repository/#repository
     orgs.newRepo('tm4e') {
       allow_merge_commit: false,
+      code_scanning_default_setup_enabled: false,  # we are using custom CodeQL workflow which is the preferred way
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
       description: "TextMate support in Eclipse IDE",
